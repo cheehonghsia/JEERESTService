@@ -3,7 +3,7 @@ package com.zazu.config;
 import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;
 
-@ApplicationPath("/resource")
+@ApplicationPath("/rest")
 public class AppConfig extends Application {
 
 

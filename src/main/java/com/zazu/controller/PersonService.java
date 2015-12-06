@@ -7,8 +7,15 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
-@Path("/RegisterProcess")
-public class RegisterProcess {
+@Path("/person")
+public class PersonService {
+	
+	@GET
+	@Path("/insanitycheck")
+	public String insanityCheck() {
+		return "OK";
+	}
+	
 	@GET
 	@Produces(MediaType.APPLICATION_JSON)
 	public Response getRegisterDetails() {
