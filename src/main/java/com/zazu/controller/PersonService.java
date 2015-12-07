@@ -22,8 +22,6 @@ public class PersonService {
 		return "OK";
 	}
 	
-	
-	
 	@GET
 	@Produces(MediaType.APPLICATION_JSON)
 	public Response getRegisterDetails() {
