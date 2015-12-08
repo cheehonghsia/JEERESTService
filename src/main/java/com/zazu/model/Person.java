@@ -1,7 +1,13 @@
 package com.zazu.model;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="PERSON")
 public class Person {
-	
+	@Id
 	private String id;
 	private String givenName;
 	private String familyName;
